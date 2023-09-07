@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz membuat layout</title>
+	<style type="text/css">
+		.ortu {
+			display: block;
+			background-color: black;
+			padding: 18px;
+			margin-bottom: 20px;
+		}
+		div .anak1,.anak2,.anak3,.anak4 {
+			color: black;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+		.anak1 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			margin-right: 15px;
+			width: 26px;
+			height: 15px;
+		}
+		.anak2 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			margin-right: 15px;
+			width: 26px;
+			height: 15px;
+		}
+		.anak3 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			margin-right: 15px;
+			width: 26px;
+			height: 15px;
+		}
+		.anak4 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 26px;
+			height: 15px;
+		}
+		.cucu {
+			display: block;
+			background-color: black;
+			padding: 18px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		div .cucu1,.cucu2,.cucu3,.cucu4 {
+			color: black;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+		.cucu1 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15px;
+	    }
+	    .cucu2 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15px;
+		}
+		.cucu3 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15px;
+		}
+		.cucu4 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+		}
+		.ipar {
+			display: block;
+			background-color: black;
+			padding: 18px;
+			margin-bottom: 20px;
+			text-align: right;
+		}
+		div .ipar1,.ipar2,.ipar3,.ipar4 {
+			color: black;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+		.ipar1 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-left: 15px;
+			text-align: center;
+		}
+		.ipar2 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-left: 15px;
+			text-align: center;
+		}
+		.ipar3 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-left: 15px;
+			text-align: center;
+		}
+		.ipar4 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-left: 15px;
+			text-align: center;
+		}
+		.menantu {
+			display: block;
+			background-color: black;
+			padding: 18px;
+			margin-bottom: 20px;
+		}
+		div .menantu1,.menantu2,.menantu3,.menantu4 {
+			color: black;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+		.menantu1 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			margin-right: 15px;
+			width: 26px;
+			height: 15px;
+		}
+		.menantu2 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			margin-right: 70%;
+			width: 26px;
+			height: 15px;
+		}
+		.menantu3 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15px;
+			text-align: center;
+		}
+		.menantu4 {
+	    	display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15px;
+			text-align: center;
+		}
+		.cicit {
+			display: block;
+			background-color: black;
+			padding: 18px;
+			margin-bottom: 20px;
+		}
+		div .cicit1,.cicit2,.cicit3,.cicit4 {
+			color: black;
+			font-family: sans-serif;
+			font-weight: bold;
+			margin-left: 5%;
+		}
+		.cicit1 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15%;
+		}
+		.cicit2 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15%;
+		}
+		.cicit3 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+			margin-right: 15%;
+		}
+		.cicit4 {
+			display: inline-block;
+			background-color: white;
+			padding: 20px;
+			width: 60px;
+			height: 12px;
+			color: black;
+		}
+
+	</style>
+</head>
+<body>
+    <div class="ortu">
+     	<div class="anak1">
+     	kiri
+     	</div>
+     	<div class="anak2">
+     	kiri
+     	</div>
+     	<div class="anak3">
+     	kiri
+     	</div>
+     	<div class="anak4">
+        kiri
+     	</div>
+    </div>
+    
+    <div class="cucu">
+    	<div class="cucu1">
+     	Tengah
+     	</div>
+     	<div class="cucu2">
+     	Tengah
+     	</div>
+     	<div class="cucu3">
+     	Tengah
+     	</div>
+     	<div class="cucu4">
+     	Tengah
+     	</div>
+    </div>
+
+    <div class="ipar">
+    	<div class="ipar1">
+     	Kanan
+     	</div>
+     	<div class="ipar2">
+     	Kanan
+     	</div>
+     	<div class="ipar3">
+     	Kanan
+     	</div>
+     	<div class="ipar4">
+     	Kanan
+     	</div>
+    </div>
+
+    <div class="menantu">
+    	<div class="menantu1">
+    	Kiri	
+    	</div>
+    	<div class="menantu2">
+    	Kiri	
+    	</div>
+    	<div class="menantu3">
+    	Kanan
+    	</div>
+    	<div class="menantu4">
+    	Kanan
+    	</div>
+    </div>
+
+    <div class="cicit">
+    	<div class="cicit1">
+    	Konten
+    	</div>
+    	<div class="cicit2">
+    	Konten
+    	</div>
+    	<div class="cicit3">
+    	Konten
+    	</div>
+    	<div class="cicit4">
+    	Konten
+    	</div>
+    </div>
+</body>
+</html>

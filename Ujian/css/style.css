@@ -1,0 +1,139 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+.ortu {
+		display: block;
+		background-color: black;
+		padding: 18px;
+		text-align: center;
+		align-items: center;
+	}
+div .anak1,.anak2,.anak3,.anak4,.anak5{
+		color: black;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+		align-items: center;
+	}
+.anak1 {
+		display: inline-block;
+		background-color: bisque;
+		padding: 15px;
+		width: 60px;
+		height: 12px;
+		color: black;
+		margin-right: 15px;
+    }
+.anak2 {
+	   	display: inline-block;
+		background-color: bisque;
+		padding: 15px;
+		width: 60px;
+		height: 12px;
+		color: black;
+		margin-right: 15px;
+	}
+.anak3 {
+	   	display: inline-block;
+		background-color: bisque;
+		padding: 25px;
+		height: 30px;
+		width: 30px;
+		color: black;
+		border-radius: 50%;
+		margin-right: 15px;
+	}
+.anak4 {
+	   	display: inline-block;
+		background-color: bisque;
+		padding: 15px;
+		width: 60px;
+		height: 12px;
+		color: black;
+		margin-right: 15px;
+	}
+.anak5 {
+	   	display: inline-block;
+		background-color: bisque;
+		padding: 15px;
+		width: 60px;
+		height: 12px;
+		color: black;
+		margin-right: 15px;
+	}
+.ortu2 {
+		background-color: bisque;
+		width: 100%;
+		height: 200px;
+		padding: 50px 0;
+	}
+.ortu2, h2,p,button {
+        text-align: center;
+		color: black;
+    }
+ .ortu2 h2 {
+ 	text-align: center; 
+ }
+button {
+		display: inline-block;
+		width: 300px;
+		height: 40px;
+		font-size: 20px;
+		font-weight: bold;
+		background-color: black;
+		color: bisque;
+}
+.ortu3 {
+		background-color: black;
+		padding: 50px ;
+        
+}
+.ortu3 div{
+	margin: 0 20px;
+}
+.gambar {
+		display: inline-block;
+		background-color: bisque;
+		padding: 0px;
+		width: 28%;
+		height: 480px;
+		color: black;
+}
+.text {
+	padding: 15px;
+}
+.gambar2 {
+		display: inline-block;
+		background-color: bisque;
+		padding: 0px;
+		width: 28%;
+		height: 480px;
+		color: black;
+}
+.text2 {
+	padding: 15px;
+}
+.gambar3 {
+		display: inline-block;
+		background-color: bisque;
+		padding: 0px;
+		width: 28%;
+		height: 480px;
+		color: black;
+}
+.text3 {
+		padding: 15px;
+}
+.ortu4 {
+		background-color: bisque;
+		padding: 100px ;
+	}
+.kanan {
+		float: right;
+		width: 35%;
+		margin-left: 20px;
+}
+.ortu4 p,h2 {
+	text-align: left;
+}
