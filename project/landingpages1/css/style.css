@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	height: 100vh;
+}
+.content1 {
+	background-image: url(https://i.pinimg.com/564x/c5/a0/48/c5a0488d9f85b44ea18275c1f724169b.jpg);
+	background-size: cover;
+	height: 610px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav1 {
+	display: flex;
+	justify-content: center;
+	gap : 110px;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 15%;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+.link1,.link2,.link3,.link4 {
+	margin-top: 10px;
+}
+.link4 {
+	border-radius: 8px;
+	padding: 5px;
+	border: 2px solid white;
+}
+.nav2 h1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 20px;
+}
+.nav2 p {
+	color: white;
+	font-size: 19px;
+	margin-top: 15px;
+	text-align: center;
+	align-items: center;
+	letter-spacing: 8px;
+}
+
+.content2 {
+	background-color: #e9fac8;
+	margin: 0 auto;
+	align-items: center;
+	padding: 70px ;
+	height: 550px;
+}
+.articles h2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #495057;
+	margin-bottom: 28px;
+}
+.gambar {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	gap : 17px;
+}
+.img {
+	background-color: white;
+	padding: 0px;
+	width: 22%;
+	height: 340px;
+	color: black;
+}
+.text {
+	padding: 15px;
+	color: #495057;
+	text-align: center;
+	position: relative;
+}
+.text p {
+	position: absolute;
+	top : 77px;
+	left: 0;
+}
+.content3 {
+	display: flex;
+    gap : 15px;
+	justify-content: center;
+	align-items: center;
+}
+.anak {	
+	padding: 0px;
+	width: 50%;
+	/*height: 80%;*/
+}
+.parthner{
+	width: 50%;
+	padding: 15px;
+	height: 100%;
+}
+.parthner h2{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 40px;
+}
+.parthner p {
+	font-size: 20px;
+}
