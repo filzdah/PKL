@@ -46,11 +46,32 @@
 			background: transparent;
 			border:1px solid white;
 			font-size: 17px;
+			animation: mengubahwarnaborder 3s linear infinite;
+			box-shadow: 0 0 0 1px white,0 0 15px 0 white;
+			}
+
+		@keyframes mengubahwarnaborder {
+			30% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px white,0 0 30px 0 white;
+			}
+			60% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px #1098ad,0 0 30px 0 #1098ad;
+			}
+			90% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px #ae3ec9,0 0 30px 0 #ae3ec9;
+			}
 		}	
 		.anak2 {
 			padding-top: 60px;
 			text-align: center;
 			font-size: 17px;
+			align-items: center;
 		}
 		.anak2 h2{
 			margin-bottom: 40px;
@@ -58,12 +79,17 @@
 		p {
 			margin-bottom: 20px;
 		}
-		.ortu2,.ortu3 {
+		.ortu2 {
 			padding: 0px 50px;
 			background-color: black;
 			height: 600px;
 		}
-		.cucu,.buyut {
+		.cucu {
+			margin-top: 80px;
+			text-align: center;
+			font-size: 17px;
+		}
+		.buyut {
 			margin-top: 70px;
 			text-align: center;
 			font-size: 17px;
@@ -106,6 +132,7 @@
 			display: flex;
 			justify-content: center;
 			gap :20px;
+			position: relative;
 		}
 		.cicit2 {
 			width: 300px;
@@ -127,6 +154,55 @@
 			left: 0;
 			text-align: center;
 			width: 100%
+		}
+		.ortu3 {
+			position: relative;
+			align-items: center;
+			height: 500px;
+			padding: 0px 50px;
+			background-color: black;
+		}
+		.cicit3 {
+			display: flex;
+			justify-content: center;
+			align-items: center;text-align: center;
+			height: 100px;
+			width: 100px;
+			border-radius: 50%;
+			/*border: 3px solid white;*/
+			color: blue;
+			position: absolute;
+			transform: translateY(50%);
+			background-color: black;
+			/*box-shadow: 0 0 10px 0 white;*/
+			animation: mengubahwarnaborder 3s linear infinite;
+			box-shadow: 0 0 0 1px white,0 0 15px 0 white;
+			}
+
+		@keyframes mengubahwarnaborder {
+			30% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px white,0 0 30px 0 white;
+			}
+			60% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px #1098ad,0 0 30px 0 #1098ad;
+			}
+			90% {
+				/*border: 1px solid blue;*/
+				/*box-shadow: 0 0 20px green, 0 0 10px white;*/
+				box-shadow: 0 0 0 2px blue,0 0 30px 0 blue;
+			}
+	
+		}
+		.cicit3 p {
+			color: white;
+			text-align: center;
+			font-size: 28px;
+			font-weight: bold;
+			margin-top: 15px;
 		}
 
 	</style>
@@ -162,26 +238,26 @@
 		<div class="cucu2">
 			<div class="cicit1">
 				<div class="abc">
-				<h2>kunjungi saya</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+					<h2>kunjungi saya</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
 				</div>
 			</div>
 			<div class="cicit1">
 				<div class="abc">
-				<h2>Data Diri saya</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+					<h2>Data Diri saya</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
 				</div>
 			</div>
 			<div class="cicit1">
 				<div class="abc">
-				<h2>Pertemanan saya</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+					<h2>Pertemanan saya</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					</p>
 				</div>
 			</div>
 		</div>
@@ -198,15 +274,19 @@
 		<div class="buyut2">
 			<div class="cicit2">
 				<div class="abcd">
-				<h3>salam kenal</h3>
+					<h3>salam kenal</h3>
 				</div>
 			</div>
 			<div class="cicit2">
 				<div class="abcd">
-				<h3>salam kenal</h3>
+					<h3>salam kenal</h3>
 				</div>
 			</div>
+			<div class="cicit3">
+				<p>X</p>
+			</div>
 		</div>
+		
 	</div>
 	<script src="https://kit.fontawesome.com/4b65cc54bc.js" crossorigin="anonymous"></script>
 </body>
