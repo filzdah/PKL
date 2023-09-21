@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kalkulator</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		p {
+			padding: 5px 10px;
+			border: 1px solid black;
+			width: 100%;
+			color: black;
+			font-size: 19px;
+			font-weight: bold;
+		}
+		body > div {
+			width: 25%;
+			background-color: yellow;
+			padding: 16px;
+		}
+		body > div button {
+			width: 25%;
+			height: 45px;
+			font-size: 19px;
+			font-weight: bold;
+			background-color: white;
+		}
+		div > div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap : 5px;
+			margin-bottom: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<div>
+			<p class="penampakan">Masukkan Angka</p>
+		</div>
+
+		<div>
+			<button class="number1">1</button>
+			<button class="number2">2</button>
+			<button class="number3">3</button>
+		</div>
+
+		<div>
+			<button class="number4">4</button>
+			<button class="number5">5</button>
+			<button class="number6">6</button>
+		</div>
+
+		<div>
+			<button class="number7">7</button>
+			<button class="number8">8</button>
+			<button class="number9">9</button>
+		</div>
+
+		<div>
+			<button class="ikonTambah">+</button>
+			<button class="number0">0</button>
+			<button class="ikonSamaDengan">=</button>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		let angka0;
+		let angka1;
+		let angka2;
+		let angka3;
+		let angka4;
+		let angka5;
+		let angka6;
+		let angka7;
+		let angka8;
+		let angka9;
+		const penampakan = document.querySelector(".penampakan");
+
+		const number0 = document.querySelector(".number0");
+		const number1 = document.querySelector(".number1");
+		const number2 = document.querySelector(".number2");
+		const number3 = document.querySelector(".number3");
+		const number4 = document.querySelector(".number4");
+		const number5 = document.querySelector(".number5");
+		const number6 = document.querySelector(".number6");
+		const number7 = document.querySelector(".number7");
+		const number8 = document.querySelector(".number8");
+		const number9 = document.querySelector(".number9");
+
+		number0.addEventListener("click", function (e){
+			if (angka0 === undefined) {
+				angka0 = "0";
+			}	else {
+				angka0 += "0";
+			}
+			penampakan.textContent = angka0;
+		});
+		number1.addEventListener("click", function (e){
+			if (angka1 === undefined) {
+				angka1 = "1";
+			}	else {
+				angka1 += "1";
+			}
+			penampakan.textContent = angka1;
+		});
+		number2.addEventListener("click", function (e){
+			if (angka2 === undefined) {
+				angka2 = "2";
+			}	else {
+				angka2 += "2";
+			}
+			penampakan.textContent = angka2;
+		});
+		number3.addEventListener("click", function (e){
+			if (angka3 === undefined) {
+				angka3 = "3";
+			}	else {
+				angka3 += "3";
+			}
+			penampakan.textContent = angka3;
+		});
+		number4.addEventListener("click", function (e){
+			if (angka4 === undefined) {
+				angka4 = "4";
+			}	else {
+				angka4 += "4";
+			}
+			penampakan.textContent = angka4;
+		});
+		number5.addEventListener("click", function (e){
+			if (angka5 === undefined) {
+				angka5 = "5";
+			}	else {
+				angka5 += "5";
+			}
+			penampakan.textContent = angka5;
+		});
+		number6.addEventListener("click", function (e){
+			if (angka6 === undefined) {
+				angka6 = "6";
+			}	else {
+				angka5 += "6";
+			}
+			penampakan.textContent = angka6;
+		});
+		number7.addEventListener("click", function (e){
+			if (angka7 === undefined) {
+				angka7= "7";
+			}	else {
+				angka4 += "7";
+			}
+			penampakan.textContent = angka7;
+		});
+		number8.addEventListener("click", function (e){
+			if (angka8 === undefined) {
+				angka8 = "8";
+			}	else {
+				angka8 += "8";
+			}
+			penampakan.textContent = angka8;
+		});
+		number9.addEventListener("click", function (e){
+			if (angka9 === undefined) {
+				angka9 = "9";
+			}	else {
+				angka9 += "9";
+			}
+			penampakan.textContent = angka9;
+		});
+	</script>
+</body>
+</html>

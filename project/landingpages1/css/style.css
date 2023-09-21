@@ -17,7 +17,7 @@ body {
 .nav1 {
 	display: flex;
 	justify-content: center;
-	gap : 110px;
+	gap : 30px;
 	text-align: center;
 	align-items: center;
 	margin-bottom: 15%;
@@ -25,14 +25,14 @@ body {
 a {
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 13px;
 	color: white;
 }
 .link1,.link2,.link3,.link4 {
-	margin-top: 10px;
+	margin-top: 17px;
 }
 .link4 {
-	border-radius: 8px;
+	border-radius: 5px;
 	padding: 5px;
 	border: 2px solid white;
 }
@@ -42,12 +42,12 @@ a {
 	text-align: center;
 	align-items: center;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 	letter-spacing: 20px;
 }
 .nav2 p {
 	color: white;
-	font-size: 19px;
+	font-size: 14px;
 	margin-top: 15px;
 	text-align: center;
 	align-items: center;
@@ -58,8 +58,7 @@ a {
 	background-color: #e9fac8;
 	margin: 0 auto;
 	align-items: center;
-	padding: 70px ;
-	height: 550px;
+	padding: 81px ;
 }
 .articles h2 {
 	display: flex;
@@ -67,6 +66,7 @@ a {
 	text-align: center;
 	align-items: center;
 	color: #495057;
+	font-size: 20px;
 	margin-bottom: 28px;
 }
 .gambar {
@@ -79,43 +79,51 @@ a {
 .img {
 	background-color: white;
 	padding: 0px;
-	width: 22%;
-	height: 340px;
+	width: 50%;
 	color: black;
 }
 .text {
 	padding: 15px;
 	color: #495057;
 	text-align: center;
-	position: relative;
+	
 }
 .text p {
-	position: absolute;
-	top : 77px;
-	left: 0;
+	padding: 10px;
+	font-size: 11px;
+	text-align: center;
 }
 .content3 {
 	display: flex;
-    gap : 15px;
 	justify-content: center;
 	align-items: center;
 }
 .anak {	
 	padding: 0px;
 	width: 50%;
-	/*height: 80%;*/
 }
 .parthner{
 	width: 50%;
 	padding: 15px;
-	height: 100%;
 }
 .parthner h2{
 	text-align: center;
 	margin-bottom: 30px;
 	margin-top: 20px;
-	font-size: 40px;
+	font-size: 20px;
 }
 .parthner p {
-	font-size: 20px;
+	font-size: 12px;
+}
+
+@media (max-width: 384px){
+	.gambar {
+		flex-direction: column !important;
+	}
+	.text {
+		width: 90%;
+	}
+	.img {
+		width: 100%;
+	}
 }
